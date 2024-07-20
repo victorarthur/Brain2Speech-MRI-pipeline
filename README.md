@@ -4,7 +4,7 @@ Author: **Frigyes Viktor Arthur**, email: *hello@victorarthur.com*
 
 ## Step-by-Step Instructions
 
-1. Convert DICOM to NIfTI
+### 1. Convert DICOM to NIfTI
 
 Run the script convert_dicom_to_nifti.zsh to convert DICOM files to NIfTI format.
 
@@ -38,7 +38,7 @@ done
 
 This script converts MRI data from DICOM format to NIfTI format using the dcm2niix tool, making it compatible with various neuroimaging tools and pipelines.
 
-2. Run FreeSurfer Recon-All
+### 2. Run FreeSurfer Recon-All
 
 Run the script freesurfer_recon.zsh to process the MRI data using FreeSurfer.
 
@@ -87,7 +87,7 @@ done
 
 This script automates the FreeSurfer recon-all pipeline to generate cortical and subcortical reconstructions from T1-weighted MRI data.
 
-3. Create BEM Models
+### 3. Create BEM Models
 
 Run the script create_bem_models.zsh to create BEM surfaces using FreeSurfer and MNE-Python.
 

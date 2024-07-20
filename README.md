@@ -1,5 +1,7 @@
 This repository contains scripts for processing MRI data, converting DICOM files to NIfTI format, running FreeSurfer recon-all, and creating BEM models for use with the MNE-Python library. This pipeline is designed to prepare MRI data for source localization of EEG signals.
 
+Author: **Frigyes Viktor Arthur**, email: *hello@victorarthur.com*
+
 ## Step-by-Step Instructions
 
 1. Convert DICOM to NIfTI
